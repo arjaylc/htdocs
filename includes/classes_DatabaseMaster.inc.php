@@ -8,7 +8,7 @@
 
 
 		private function connectDatabase(){
-			$this->databaseConnection = mysqli_connect('127.0.0.1', 'root', '', 'practicum');
+			$this->databaseConnection = mysqli_connect('ap-cdbr-azure-east-b.cloudapp.net', 'b90e7654391dcc', '26759141', 'rj1'); 
 			mysqli_set_charset($this->databaseConnection, 'utf8');
 		}
 
